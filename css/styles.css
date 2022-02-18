@@ -1,0 +1,151 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+
+  background-color: #12161f;
+
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #73fffa;
+  }
+  h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color:white;
+  }
+  p{
+    color:#73fffa;
+  }
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #73fffa;
+}
+
+#navbar-brand{
+  color: #73fffa;
+}
+.nav-item{
+  padding: 0 18px;
+  color: #73fffa;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #73fffa;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.wallet-button:hover{
+  color: white;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:0%;
+  top:-2.5%;
+}
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  background-image: url('../images/spc-bkg-top.png');
+  background-size: 175%;
+  position: relative;
+}
+.feature-box{
+  text-align: Center;
+  padding: 7%;
+}
+.icon{
+  color: #73fffa;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: white;
+}
+ /* Testimonial Section */
+
+#roadmap {
+   text-align: center;
+   background-color: #73fffa;
+   color: #12161f;
+ }
+
+.testimonial-image {
+   width: 80%;
+   border-radius: 100%;
+   margin: -100px;
+
+ }
+#press {
+  background-color: #73fffa;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.carousel-item{
+   padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+/* Call to Action */
+#cta{
+  text-align: center;
+  background-color: #12161f;
+  padding: 7% 25%;
+  }
+.cta-title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  color: #73fffa;
+  padding-bottom: 2.5%;
+  }
+
+/* footer */
+
+#footer{
+  background-image: url('../images/spc-bkg.png');
+  background-size: 175%;
+  text-align: center;
+  padding-bottom: 5%;
+}
