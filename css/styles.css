@@ -70,11 +70,11 @@ h3{
   color: white;
 }
 .title-image{
-  width: 40%;
+  width: 33%;
   transform: rotate(25deg);
   position: absolute;
-  right:5%;
-  top:-2.5%;
+  right:15%;
+  top:5%;
 }
 /* Features Section */
 #features{
